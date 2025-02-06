@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+mainClassName = 'Main'
+
+jar {
+    manifest {
+        attributes 'Main-Class': mainClassName
+    }
+}
